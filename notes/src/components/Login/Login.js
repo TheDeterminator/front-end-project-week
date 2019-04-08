@@ -51,7 +51,10 @@ class Login extends React.Component {
         <input className="sidebar-button login-button" type="submit" value="Log In" onClick={this.handleLogin} /></div>
         {this.state.unAuthenticated ? <p className="wrong-password">Whoops, wrong username or password, try again</p>: null}
         <NavLink to='/signup' className="Goto-Signup">Need an account? Click here to sign up</NavLink>
+        <a className="login-button-red" href="https://youtu.be/rN-O9h8UQlE?t=975" target="_blank" rel="noopener noreferrer">Frontend Video Demo</a>
+        <a className="login-button-red" href="https://youtu.be/_BtlWxQS1E8?t=1516" target="_blank" rel="noopener noreferrer">Backend Video Demo</a>
         </form>
+        
       </div>
     );
   }
